@@ -1,5 +1,5 @@
 class jslee::timezone {
-  class { 'timezone':
+  class { '::timezone':
     timezone => 'Australia/Sydney',
   }
 }
